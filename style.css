@@ -76,7 +76,7 @@ hr {
   color: #000000;
   text-shadow: 2px 2px 2px #747474;
   font-size: 350%;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Platypi", serif;
   letter-spacing: 2px;
   word-spacing: 3px;
 }
@@ -167,14 +167,15 @@ img {
 
 .card_title {
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
   letter-spacing: 3px;
   text-transform: capitalize;
   margin: 0px;
   text-shadow: 2px 2px 2px black;
-  font-family: "Signika", sans-serif;
+  font-family: "Fjalla One", sans-serif;
   text-align: center;
+  margin-top: 3%;
 }
 
 .card_text {
@@ -184,6 +185,10 @@ img {
   color: white;
   text-shadow: 2px 2px 2px #3b3b8c;
   font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+  margin-top: 6%;
 }
 
 /*Life / Early Years End*/
