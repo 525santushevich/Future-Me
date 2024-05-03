@@ -1,27 +1,38 @@
 body {
-  background-color: rgb(43, 43, 43);
+  margin: 0;
+  padding: 3rem;
+  background-image: url(/New-Big-House-3-pm88rz9hcjmkf8vmt2w4pjlbif24nouy7nczdvjncw.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgb(98, 97, 102);
+  background-attachment: fixed;
+
 }
 
 /*NavBar*/
 .container-fluid {
-  background-color: rgba(65, 65, 65, 0.5);
-  border: 1px solid white;
+  background-color: rgba(240, 211, 172, 0.329);
+  border: 1px solid #2c1400;
   margin-top: 2%;
 }
 
 .title {
   font-size: 250%;
-  font-family: "Nanum Brush Script", cursive;
-  color: #c08bb7;
+  font-family: "Lugrasimo", cursive;
+  color: #2c1400;
+  margin-top: 1.5%;
 }
 
 .navbar {
   width: 85%;
   margin: auto;
   padding: 20px 0px;
-  display: flex;
+  display: block, flex;
   align-items: center;
   font-size: 180%;
+  overflow: hidden;
+
 }
 
 .navbar ul li {
@@ -29,20 +40,21 @@ body {
   display: inline-block;
   margin: 0 20px;
   position: relative;
+  font-size: 2.5rem;
 }
 
 .navbar ul li a {
   text-decoration: none;
   color: white;
   text-shadow: 2px 2px 2px black;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .navbar ul li::after {
   content: "";
   height: 3px;
   width: 0;
-  background: #c08bb7;
+  background: #afafaf;
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -51,7 +63,7 @@ body {
 
 .navbar ul li:hover::after {
   width: 100%;
-  background-color: #c08bb7;
+  background-color: #2c1400;
 }
 
 /*NavBar End*/
@@ -60,7 +72,7 @@ body {
 hr {
   margin-top: 3%;
   color: rgb(0, 0, 0);
-  box-shadow: 2px 2px 2px white;
+  box-shadow: 2px 2px 2px #2c1400;
 }
 /* Font */
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
@@ -73,7 +85,7 @@ hr {
 }
 
 .title1 {
-  color: #000000;
+  color: #ffffff;
   text-shadow: 2px 2px 2px #747474;
   font-size: 350%;
   font-family: "Platypi", serif;
@@ -152,7 +164,7 @@ img {
 }
 
 .card {
-  background-color: #203755;
+  background-color: rgb(161, 143, 118);
   border-radius: 0.25rem;
   display: flex;
   flex-direction: column;
@@ -162,7 +174,8 @@ img {
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #203755 40%, #203755 100%);
+  background: linear-gradient(to bottom left, rgb(161, 143, 118) 40%, rgb(161, 143, 118) 100%);
+  color: #2c1400;
 }
 
 .card_title {
@@ -182,13 +195,14 @@ img {
   padding: 5px 0;
   text-align: center;
   margin-top: 3%;
-  color: white;
-  text-shadow: 2px 2px 2px #3b3b8c;
+  color: #2c1400;
   font-family: "Josefin Sans", sans-serif;
 }
 
 p {
   margin-top: 6%;
+  color: #2c1400;
+
 }
 
 /*Life / Early Years End*/
@@ -198,7 +212,7 @@ p {
   display: flex;
   flex-direction: column;
   margin: 1rem auto;
-  box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 7px -1px #2c1400;
   margin-bottom: 1.6%;
   background: #ffffff;
   line-height: 1.4;
@@ -206,7 +220,7 @@ p {
   border-radius: 5px;
   overflow: hidden;
   z-index: 0;
-  border: 2px solid #272727;
+  border: 2px solid #2c1400;
 }
 .blog-card a {
   color: inherit;
@@ -257,27 +271,7 @@ p {
 .blog-card .details ul li {
   display: inline-block;
 }
-.blog-card .details .author:before {
-  font-family: FontAwesome;
-  margin-right: 10px;
-  content: "\f007";
-}
-.blog-card .details .date:before {
-  font-family: FontAwesome;
-  margin-right: 10px;
-  content: "\f133";
-}
-.blog-card .details .tags ul:before {
-  font-family: FontAwesome;
-  content: "\f02b";
-  margin-right: 10px;
-}
-.blog-card .details .tags li {
-  margin-right: 2px;
-}
-.blog-card .details .tags li:first-child {
-  margin-left: -4px;
-}
+
 .blog-card .description {
   padding: 1rem;
   background: #fff;
@@ -286,7 +280,7 @@ p {
 }
 .blog-card .description h1,
 .blog-card .description h2 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
 }
 .blog-card .description h1 {
   line-height: 1;
@@ -385,6 +379,11 @@ p {
   margin-top: 3%;
 }
 
+.card-text {
+  color: #2c1400;
+
+}
+
 .history {
   margin-top: 4%;
 }
@@ -403,7 +402,7 @@ p {
 }
 
 iframe {
-  box-shadow: 6px 6px 6px black;
+  box-shadow: 6px 6px 6px #2c1400;
 }
 /*Impact On History End*/
 
@@ -552,3 +551,16 @@ img.move:hover {
   justify-content: space-between;
 }
 /*Footer End*/
+
+.money {
+  height: 42%;
+  width: 42%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 2px #2c1400;
+  border: 2px solid #2c1400;
+}
+
+h5 {
+  color: #2c1400;
+
+}
